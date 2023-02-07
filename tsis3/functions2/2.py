@@ -76,5 +76,9 @@ movies = [
 }
 ]
 
-def is_highly_rated(movie):
-    return movie["imdb"] > 5.5
+def is_highly_rated(movie): 
+    return movie["imdb"] > 5.5 
+ 
+for movie in movies: 
+    if is_highly_rated(movie): 
+        print(f"{movie['name']} has over 5.5 rtaing.")
