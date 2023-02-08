@@ -1,3 +1,7 @@
+def is_higly_rated(movies):
+    for i in range(len(movies)):
+        if movies[i]['imdb'] > 5.5:
+            print(True)
 movies = [
 {
 "name": "Usual Suspects", 
@@ -75,6 +79,4 @@ movies = [
 "category": "Romance"
 }
 ]
-
-def is_highly_rated(movie):
-    return movie["imdb"] > 5.5
+is_higly_rated(movies)
