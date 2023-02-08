@@ -1,3 +1,12 @@
+# Dictionary of movies
+def average(movies):
+    sum = 0
+    avg = 0
+    for i in range(len(movies)):
+        sum += movies[i]["imdb"]
+        avg = float(sum/len(movies))
+    print("%.2f" % avg)
+
 movies = [
 {
 "name": "Usual Suspects", 
@@ -75,9 +84,4 @@ movies = [
 "category": "Romance"
 }
 ]
-
-def avg_imdb_score(movies):
-  total = 0
-  for movie in movies:
-    total += movie["imdb"]
-  return total / len(movies)
+average(movies)
