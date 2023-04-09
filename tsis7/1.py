@@ -2,9 +2,9 @@ import pygame
 import time
 pygame.init()
 
-base = pygame.image.load("C:/Users/modik/Documents/pp2/7lab/mickeyclock.png")
-h1 = pygame.image.load("C:/Users/modik/Documents/pp2/7lab/hand-1.png")
-h2 = pygame.image.load("C:/Users/modik/Documents/pp2/7lab/hand-2.png")
+h1 = pygame.image.load(r"C:\Users\Acer\OneDrive\Documents\MyGit\tsis7\hand-1.png")
+h2 = pygame.image.load(r"C:\Users\Acer\OneDrive\Documents\MyGit\tsis7\hand-2.png")
+base = pygame.image.load(r"C:\Users\Acer\OneDrive\Documents\MyGit\tsis7\mickeyclock.png")
 
 window = pygame.display.set_mode((1000, 750))
 
