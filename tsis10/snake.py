@@ -226,7 +226,7 @@ height = 500
 width = 500
 window = (width, height)
 screen = pygame.display.set_mode(window)
-pygame.display.set_caption("Lab10 Snake")  # Window settings
+pygame.display.set_caption("tsis10 Snake")  # Window settings
 step = 20
 
 direction = 'RIGHT'
@@ -234,8 +234,8 @@ direction = 'RIGHT'
 End = False
 append = False
 
-background = pygame.transform.scale(pygame.image.load('10lab/img/background.png'), (600, 600))
-food = pygame.transform.scale(pygame.image.load("10lab/img/food.png"), (20, 20))
+background = pygame.transform.scale(pygame.image.load('tsis10/images/background.png'), (600, 600))
+food = pygame.transform.scale(pygame.image.load("tsis10/images/food.png"), (20, 20))
 font = pygame.font.SysFont('Times New Roman', 24)
 score = 0
 head_x = head_y = 240
