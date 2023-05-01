@@ -6,7 +6,7 @@ pygame.display.set_caption("Red Ball")
 
 x = 400
 y = 300
-m = 20
+m = 40
 def draw_ball():
     pygame.draw.circle(screen, 'red', (x, y), 25)
 
