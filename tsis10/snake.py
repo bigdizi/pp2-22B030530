@@ -234,8 +234,8 @@ direction = 'RIGHT'
 End = False
 append = False
 
-background = pygame.transform.scale(pygame.image.load('tsis10/images/background.png'), (600, 600))
-food = pygame.transform.scale(pygame.image.load("tsis10/images/food.png"), (20, 20))
+background = pygame.transform.scale(pygame.image.load('C:\Users\Acer\OneDrive\Documents\MyGit\tsis10\images\background.png'), (600, 600))
+food = pygame.transform.scale(pygame.image.load("C:\Users\Acer\OneDrive\Documents\MyGit\tsis10\images\food.png"), (20, 20))
 font = pygame.font.SysFont('Times New Roman', 24)
 score = 0
 head_x = head_y = 240
