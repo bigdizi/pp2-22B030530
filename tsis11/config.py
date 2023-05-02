@@ -1,6 +1,6 @@
 params = {
     "host" : "localhost",
     "database" : "bigdizi",
-    "user" : "bigdizi",
+    "user" : "postgres",
     "password" : "neuer2014" 
 }
